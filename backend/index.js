@@ -3,18 +3,20 @@
 const express = require("express");
 const mysql = require("mysql");
 const cors = require("cors");
+const dotenv = require("dotenv"); // se declara variable para la conexion a la BD Cloud
 
 //2 - configuracion
 const app = express();
 app.use(express.json());
 app.use(cors());
+dotenv.config(); //Se llama variable de la conexion BD Cloud
 
 //3 - conexion
-const conexion = mysql.createConnection({
-    host: "localhost",
-    database: "personas",
-    user: "root",
-    password: ""
+const conexion = mysql.createConnection({ //Se agregan variables de la conexion a la BD Cloud
+    host: process.env.MYSQL_ADDON_HOST,
+    database: process.env.MYSQL_ADDON_DB,
+    user: process.env.MYSQL_ADDON_USER,
+    password: process.env.MYSQL_ADDON_PASSWORD
 });
 
 conexion.connect();
