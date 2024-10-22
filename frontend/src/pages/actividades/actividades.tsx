@@ -35,7 +35,7 @@ export function Actividades() {
     //Busco en directorio
     const fetchDirectorio = async () => {
       try {
-        const response = await axios.post('http://localhost:8080/directorio', {
+        const response = await axios.post('https://backend-mysql-l4no.onrender.com/directorio', {
           categoria_dir: categoria.id_cat,
         });
 
