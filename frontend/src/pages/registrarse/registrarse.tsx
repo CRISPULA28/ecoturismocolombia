@@ -13,7 +13,7 @@ export function Registrarse() {
 
     try {
       // Realizar la solicitud POST al backend con los datos del usuario
-      await axios.post('http://localhost:8080/register', {
+      await axios.post('https://backend-mysql-l4no.onrender.com/register', {
         email,
         password,
       });
