@@ -57,7 +57,7 @@ export function Login() {
         </form>
         <div className="footer">
             
-            <p><a href="/registrarse">Registrate</a></p>
+            <p><a href="/https://ecoturismocolombia.onrender.com/registrarse">Registrate</a></p>
         </div>
     </div>
 );
