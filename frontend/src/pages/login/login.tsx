@@ -14,7 +14,7 @@ export function Login() {
     // llamar al servicio
     console.log(email, password);
     axios
-      .post('http://localhost:8080/login', { email, password }) // Llamamos los campos de la BD
+      .post('https://backend-mysql-l4no.onrender.com/login', { email, password }) // Llamamos los campos de la BD
       .then((res) => {
         console.log(res);
 
@@ -31,39 +31,37 @@ export function Login() {
 
   return (
     <div className="login-container">
-      <h2>Iniciar Sesión</h2>
-      <form onSubmit={handleSubmit}>
-        <div className="input-group">
-          <label htmlFor="email">Correo</label>
-          <input
-            type="text"
-            id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
+        <h2>Iniciar Sesión</h2>
+        <form onSubmit={handleSubmit}>
+            <div className="input-group">
+                <label htmlFor="email">Correo</label>
+                <input
+                    type="text"
+                    id="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                />
+            </div>
+            <div className="input-group">
+                <label htmlFor="password">Contraseña</label>
+                <input
+                    type="password"
+                    id="password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    required
+                />
+            </div>
+            <button type="submit" className="btn">Entrar</button>
+        </form>
+        <div className="footer">
+            
+            <p><a href="/registrarse">Registrate</a></p>
         </div>
-        <div className="input-group">
-          <label htmlFor="password">Contraseña</label>
-          <input
-            type="password"
-            id="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
-        </div>
-        <button type="submit" className="btn">
-          Entrar
-        </button>
-      </form>
-      <div className="footer">
-        <p>
-          <a href="/registrarse">Registrate</a>
-        </p>
-      </div>
     </div>
-  );
+);
+
 }
 
 export default Login;
