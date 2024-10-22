@@ -60,7 +60,7 @@ export function Actividades() {
   useEffect(() => {
     const fetchRegiones = async () => {
       try {
-        const response = await fetch('http://localhost:8080/categoria');
+        const response = await fetch('https://backend-mysql-l4no.onrender.com/categoria');
         if (!response.ok) {
           throw new Error('Error al obtener las actividades');
         }
