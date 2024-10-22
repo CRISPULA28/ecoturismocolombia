@@ -29,7 +29,7 @@ export function Destino() {
   useEffect(() => {
     const fetchRegiones = async () => {
       try {
-        const response = await fetch('http://localhost:8080/destino');
+        const response = await fetch('https://backend-mysql-l4no.onrender.com/destino');
         if (!response.ok) {
           throw new Error('Error al obtener las Regiones');
         }
