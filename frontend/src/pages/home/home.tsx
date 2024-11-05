@@ -7,7 +7,7 @@ export function Home() {
 
       <p>
         Nuestro proposito es darte a conocer las diferentes experiencias que
-        existen en nuestro pais, enamorarte a traves de sus maravillosos lugares
+        existen en nuestro pais. ¡Enamorarte a traves de sus maravillosos lugares!
       </p>
     </div>
   );
