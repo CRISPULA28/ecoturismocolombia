@@ -21,7 +21,7 @@ export function App() {
         
       },
       {
-        original: "https://github.com/CRISPULA28/ecoturismocolombia/blob/main/bicicleta.jpg",
+        original: "https://pixabay.com/es/photos/paraca%C3%ADdas-parapentes-parapente-2700972",
       }
 
     
