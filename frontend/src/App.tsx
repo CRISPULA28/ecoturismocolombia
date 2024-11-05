@@ -14,14 +14,20 @@ export function App() {
 
       const images = [
       {
-        original: "https://picsum.photos/seed/picsum/100/50",
+        original: "https://turismo.culturamix.com/blog/wp-content/gallery/cresce-o-turismo-de-aventura-1/thumbs/thumbs_Cresce-o-Turismo-de-Aventura-2.jpg",
       },
       {
         original: "https://cdn.colombia.com/sdi/2021/07/15/turismo-en-colombia-5-destinos-para-amantes-de-la-naturaleza-934385.jpg",
         
       },
       {
-        original: "https://pixabay.com/es/photos/paraca%C3%ADdas-parapentes-parapente-2700972",
+        original: "https://definicion.de/wp-content/uploads/2011/11/turismoaventura.jpg",
+      },
+      {
+        original:"https://cerebriti.b-cdn.net/uploads/decbb0094902b57388fcd0a4657e7dfb.jpg",
+      },
+      {
+        original:"https://2.bp.blogspot.com/_J3SyE8rZoC0/TNszeETJooI/AAAAAAAAAAs/h0RL_VB9bzc/s1600/foto3.jpg",
       }
 
     
