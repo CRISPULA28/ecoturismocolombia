@@ -13,6 +13,8 @@ import "react-image-gallery/styles/css/image-gallery.css"
 export function App() {
 
       const images = [
+
+        
       {
         original: "https://picsum.photos/seed/picsum/650/470",
       },
