@@ -16,20 +16,20 @@ export function App() {
 
         
       {
-        original: "https://picsum.photos/seed/picsum/650/470",
+        original: "https://pxsports.com/wp-content/uploads/2017/10/buceo-.jpg",
       },
       {
-        original: "https://cdn.colombia.com/sdi/2021/07/15/turismo-en-colombia-5-destinos-para-amantes-de-la-naturaleza-934385.jpg",
+        original: "https://www.mexicodesconocido.com.mx/wp-content/uploads/2021/06/4675F653-BBA4-4316-8E08-DA61583B9264.jpeg",
         
       },
       {
-        original: "https://definicion.de/wp-content/uploads/2011/11/turismoaventura.jpg",
+        original: "https://www.viajerosenruta.com/wp-content/uploads/2021/05/bungee-turismo-de-aventura-1.jpg",
       },
       {
-        original:"https://cerebriti.b-cdn.net/uploads/decbb0094902b57388fcd0a4657e7dfb.jpg",
+        original: "https://reportelobby.info/wp-content/uploads/2023/01/TURISMO_DE_AVENTURA_REPORTE_LOBBY_06--1024x576.jpg",
       },
       {
-        original:"https://github.com/CRISPULA28/ecoturismocolombia/blob/main/bicicleta.jpg",
+        original:"https://www.turiscom.org/media/turismo/images/2020/05/26/2020052612544841908.jpg",
       }
 
     
