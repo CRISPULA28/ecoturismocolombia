@@ -14,8 +14,8 @@ export function App() {
 
       const images = [
       {
-        original: "https://picsum.photos/seed/picsum/1018/1000",
-        thumbnail: "https://picsum.photos/seed/picsum/1018/250/150",
+        original: "ballenas.jpeg/1018/1000",
+        thumbnail: "ballenas.jpeg/1018/250/150",
       }
     
     ]
@@ -23,14 +23,9 @@ export function App() {
    
   return (
     <div>
+     <div>
       <Header />
-
-      <div>
-        <ImageGallery  items={images}/>
-  
-        
-      </div>
-
+      
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/Login" element={<Login />} />
@@ -40,6 +35,14 @@ export function App() {
         
       </Routes>
     </div>
+    
+    <div>
+        <ImageGallery  items={images}/>
+  
+        
+    </div>
+    </div>
+
   );
 }
 
