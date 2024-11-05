@@ -14,8 +14,8 @@ export function App() {
 
       const images = [
       {
-        original: "/path/bicicleta.jpg/1018/1000",
-        thumbnail: "/path/bicicleta.jpg/1018/250/150",
+        original: "https://github.com/CRISPULA28/ecoturismocolombia/blob/main/bicicleta.jpg/1018/1000",
+        thumbnail: "https://github.com/CRISPULA28/ecoturismocolombia/blob/main/bicicleta.jpg/1018/250/150",
       }
     
     ]
