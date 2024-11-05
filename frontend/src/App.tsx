@@ -6,11 +6,30 @@ import { Destino } from './pages/destino/destino';
 import {Actividades} from './pages/actividades/actividades';
 import {Registrarse} from './pages/registrarse/registrarse';
 
+import ImageGallery from 'react-image-gallery';
+import "react-image-gallery/styles/css/image-gallery.css"
+
 
 export function App() {
+
+      const images = [
+      {
+        original: "https://picsum.photos/seed/picsum/1018/1000",
+        thumbnail: "https://picsum.photos/seed/picsum/1018/250/150",
+      }
+    
+    ]
+  
+   
   return (
     <div>
       <Header />
+
+      <div>
+        <ImageGallery  items={images}/>
+  
+        
+      </div>
 
       <Routes>
         <Route path="/" element={<Home/>} />
