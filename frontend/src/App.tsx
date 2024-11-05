@@ -14,8 +14,8 @@ export function App() {
 
       const images = [
       {
-        original: "ballenas.jpeg/1018/1000",
-        thumbnail: "ballenas.jpeg/1018/250/150",
+        original: "bicicleta.jpg/1018/1000",
+        thumbnail: "bicicleta.jpg/1018/250/150",
       }
     
     ]
