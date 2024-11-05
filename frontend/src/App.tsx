@@ -31,7 +31,12 @@ export function App() {
         original: "https://www.viajerosenruta.com/wp-content/uploads/2021/05/rappel1-jalcomulco-turismo-de-aventura.jpg",
         
       },
-     
+      {
+        original:"https://www.google.com/search?q=imagenes+buceo+colombia&sca_esv=86ba961531420a8b&udm=2&biw=1536&bih=703&sxsrf=ADLYWILot-2JaxJcKxEEO-wSKJljKNbkpg%3A1730796049500"
+      },
+      {
+        original:"https://www.google.com/search?sca_esv=86ba961531420a8b&sxsrf=ADLYWILY36lU7Fwl5CtTQfHsEueNNKDZIQ:1730796444090&q=cartagena+imagen+cuatrimoto+aventura+colombia&uds"
+      }
 
     
     ]
