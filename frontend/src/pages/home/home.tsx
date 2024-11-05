@@ -11,36 +11,38 @@ export function Home() {
     slidesToScroll: 1,
   };
   return (
+    <div>
+    <div className="login-container">
+      <h2>¡BIENVENIDOS!</h2>
+      <p>
+        Nuestro proposito es darte a conocer las diferentes experiencias que
+        existen en nuestro pais. ¡Enamorarte a traves de sus maravillosos lugares!
+      </p>
+      <p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+    </div>
     
     <Slider {...settings}>
-      <div className="login-container">
-      <h2>¡BIENVENIDOS!</h2>
 
-      <p>
-      Nuestro proposito es darte a conocer las diferentes experiencias que
-      existen en nuestro pais. ¡Enamorarte a traves de sus maravillosos lugares!
-      </p>
-     </div>
-     <p></p><p></p><p></p><p></p><p></p><p></p><p></p>
-      <div>
-        <h3>1</h3>
+        <div>
+          <h3>1</h3>
+        </div>
+        <div>
+          <h3>2</h3>
+        </div>
+        <div>
+          <h3>3</h3>
+        </div>
+        <div>
+          <h3>4</h3>
+        </div>
+        <div>
+          <h3>5</h3>
+        </div>
+        <div>
+          <h3>6</h3>
+        </div>
+      </Slider>
       </div>
-      <div>
-        <h3>2</h3>
-      </div>
-      <div>
-        <h3>3</h3>
-      </div>
-      <div>
-        <h3>4</h3>
-      </div>
-      <div>
-        <h3>5</h3>
-      </div>
-      <div>
-        <h3>6</h3>
-      </div>
-    </Slider>
   );
 }
 export default Home;
