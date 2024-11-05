@@ -25,7 +25,7 @@ function carrusel(){
 
   return(
     <div>
-      <ImageGallery />
+      <ImageGallery  items={images}/>
 
       
     </div>
