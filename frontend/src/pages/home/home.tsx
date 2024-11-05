@@ -24,7 +24,7 @@ export function Home() {
       </p>
     </div>
 
-<div className="slider-container">
+
 <Slider {...settings}>
 <link
   rel="stylesheet"
