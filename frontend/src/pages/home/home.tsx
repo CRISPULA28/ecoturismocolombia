@@ -11,7 +11,16 @@ export function Home() {
     slidesToScroll: 1,
   };
   return (
+    
     <Slider {...settings}>
+      <div className="login-container">
+      <h2>¡BIENVENIDOS!</h2>
+
+      <p>
+      Nuestro proposito es darte a conocer las diferentes experiencias que
+      existen en nuestro pais. ¡Enamorarte a traves de sus maravillosos lugares!
+      </p>
+     </div>
       <div>
         <h3>1</h3>
       </div>
