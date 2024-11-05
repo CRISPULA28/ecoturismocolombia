@@ -14,8 +14,8 @@ export function App() {
 
       const images = [
       {
-        original: "https://picsum.photos/seed/picsum/1018/1000",
-        thumbnail: "https://picsum.photos/seed/picsum/1018/250/150",
+        original: "https://picsum.photos/seed/picsum/100/50",
+        
       }
     
     ]
