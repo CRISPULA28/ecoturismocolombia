@@ -14,7 +14,7 @@ export function App() {
 
       const images = [
       {
-        original: "https://turismo.culturamix.com/blog/wp-content/gallery/cresce-o-turismo-de-aventura-1/thumbs/thumbs_Cresce-o-Turismo-de-Aventura-2.jpg",
+        original: "https://picsum.photos/seed/picsum/650/470",
       },
       {
         original: "https://cdn.colombia.com/sdi/2021/07/15/turismo-en-colombia-5-destinos-para-amantes-de-la-naturaleza-934385.jpg",
@@ -27,7 +27,7 @@ export function App() {
         original:"https://cerebriti.b-cdn.net/uploads/decbb0094902b57388fcd0a4657e7dfb.jpg",
       },
       {
-        original:"https://2.bp.blogspot.com/_J3SyE8rZoC0/TNszeETJooI/AAAAAAAAAAs/h0RL_VB9bzc/s1600/foto3.jpg",
+        original:"https://github.com/CRISPULA28/ecoturismocolombia/blob/main/bicicleta.jpg",
       }
 
     
