@@ -12,34 +12,35 @@ export function Home() {
   };
   return (
     
-    <Slider {...settings}>
-      <div className="login-container">
+    
+      <><div className="login-container">
       <h2>¡BIENVENIDOS!</h2>
 
       <p>
-      Nuestro proposito es darte a conocer las diferentes experiencias que
-      existen en nuestro pais. ¡Enamorarte a traves de sus maravillosos lugares!
+        Nuestro proposito es darte a conocer las diferentes experiencias que
+        existen en nuestro pais. ¡Enamorarte a traves de sus maravillosos lugares!
       </p>
-     </div>
-      <div>
-        <h3>1</h3>
-      </div>
-      <div>
-        <h3>2</h3>
-      </div>
-      <div>
-        <h3>3</h3>
-      </div>
-      <div>
-        <h3>4</h3>
-      </div>
-      <div>
-        <h3>5</h3>
-      </div>
-      <div>
-        <h3>6</h3>
-      </div>
-    </Slider>
+    </div>
+    <Slider {...settings}>
+        <div>
+          <h3>1</h3>
+        </div>
+        <div>
+          <h3>2</h3>
+        </div>
+        <div>
+          <h3>3</h3>
+        </div>
+        <div>
+          <h3>4</h3>
+        </div>
+        <div>
+          <h3>5</h3>
+        </div>
+        <div>
+          <h3>6</h3>
+        </div>
+      </Slider></>
   );
 }
 export default Home;
