@@ -15,14 +15,14 @@ export function Home() {
     speed: 500
 
   return (
-    <div className="login-container">
+   /* <div className="login-container">
       <h2>¡BIENVENIDOS!</h2>
 
       <p>
         Nuestro proposito es darte a conocer las diferentes experiencias que
         existen en nuestro pais. ¡Enamorarte a traves de sus maravillosos lugares!
       </p>
-    </div>
+    </div>*/
 
 
 <Slider {...settings}>
@@ -31,7 +31,7 @@ export function Home() {
   type="text/css"
   charset="UTF-8"
   href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-/>
+
 
   <div>
     <h3>1</h3>
@@ -51,13 +51,10 @@ export function Home() {
   <div>
     <h3>6</h3>
   </div>
-  <link
-  rel="stylesheet"
-  type="text/css"
-  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-/>
+ 
 </Slider>
 </div>
+/>
   );
 }
 
