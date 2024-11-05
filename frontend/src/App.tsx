@@ -16,10 +16,10 @@ export function App() {
 
         
       {
-        original: "https://pxsports.com/wp-content/uploads/2017/10/buceo-.jpg",
+        original: "https://img.redbull.com/images/c_crop,x_69,y_0,h_3546,w_5319/c_fill,w_1500,h_1000/q_auto,f_auto/redbullcom/2016/10/04/1331821774506_1/jack-pimblett-parapente-en-cataluna",
       },
       {
-        original: "https://www.mexicodesconocido.com.mx/wp-content/uploads/2021/06/4675F653-BBA4-4316-8E08-DA61583B9264.jpeg",
+        original: "https://www.viajerosenruta.com/wp-content/uploads/2021/05/rappel1-jalcomulco-turismo-de-aventura.jpg",
         
       },
       {
