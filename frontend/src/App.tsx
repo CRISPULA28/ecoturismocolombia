@@ -15,12 +15,15 @@ export function App() {
       const images = [
       {
         original: "https://picsum.photos/seed/picsum/100/50",
+      },
+      {
+        original: "https://cdn.colombia.com/sdi/2021/07/15/turismo-en-colombia-5-destinos-para-amantes-de-la-naturaleza-934385.jpg/100/50",
         
-      }
+      },
     
     ]
   
-   
+    
   return (
     <div>
      <div>
