@@ -22,7 +22,7 @@ export function Home() {
     
   return (
     <div>
-      <div className="login-container">
+      <div className="home-container">
         <h2>¡BIENVENIDOS!</h2>
 
         <p>
